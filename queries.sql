@@ -17,9 +17,11 @@ SELECT
 	last_name,
 	first_name,
 	sex,
-	(SELECT emp_no
-	FROM salaries s
-	WHERE e.emp_no = s.emp_no)
+	(
+		SELECT emp_no
+		FROM salaries s
+		WHERE e.emp_no = s.emp_no
+	)
 FROM employees e
 ORDER BY e.emp_no
 
@@ -47,18 +49,22 @@ JOIN employees e ON e.emp_no = dm.emp_no;
 
 -- USING SUBQUERY
 SELECT dm.dept_no,
-	(SELECT d.dept_name
-	FROM dept d
-	WHERE dm.dept_no = d.dept_no),
-	(SELECT e.emp_no
-	FROM employees e
-	WHERE e.emp_no = dm.emp_no),
-	(SELECT e.last_name
-	FROM employees e
-	WHERE e.emp_no = dm.emp_no),
-	(SELECT e.first_name
-	FROM employees e
-	WHERE e.emp_no = dm.emp_no)
+	(
+		SELECT d.dept_name
+		FROM dept d
+		WHERE dm.dept_no = d.dept_no),
+	(
+		SELECT e.emp_no
+		FROM employees e
+		WHERE e.emp_no = dm.emp_no),
+	(
+		SELECT e.last_name
+		FROM employees e
+		WHERE e.emp_no = dm.emp_no),
+	(
+		SELECT e.first_name
+		FROM employees e
+		WHERE e.emp_no = dm.emp_no)
 FROM dept_manager dm
 
 
@@ -77,15 +83,18 @@ ORDER BY de.dept_no, e.last_name;
 -- USING SUBQUERY
 SELECT de.dept_no,
 		de.emp_no,
-		(SELECT e.last_name
-		FROM employees e
-		WHERE de.emp_no = e.emp_no) AS last_name,
-		(SELECT e.first_name
-		FROM employees e
-		WHERE de.emp_no = e.emp_no),
-		(SELECT d.dept_name
-		FROM dept d
-		WHERE de.dept_no = d.dept_no)
+		(
+			SELECT e.last_name
+			FROM employees e
+			WHERE de.emp_no = e.emp_no) AS last_name,
+		(
+			SELECT e.first_name
+			FROM employees e
+			WHERE de.emp_no = e.emp_no),
+		(
+			SELECT d.dept_name
+			FROM dept d
+			WHERE de.dept_no = d.dept_no)
 FROM dept_emp de
 ORDER BY de.dept_no, last_name
 
