@@ -26,8 +26,7 @@ Complete an analysis using a fictional company's employment data found in 6 csv 
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![1](https://user-images.githubusercontent.com/117790100/218594313-09e72819-20b9-49d7-82f0-05fd3d83d053.png)
 
 
 ## Setup
