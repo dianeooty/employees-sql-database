@@ -39,7 +39,7 @@ The sql codes below will display the tables with the required information for th
 
 ```
 -- QUERY for a list of the employee number, last name, first name, sex, and salary of each employee
--- USING JOIN
+	-- USING JOIN
 SELECT
 	e.emp_no,
 	e.last_name,
@@ -51,7 +51,7 @@ JOIN salaries s
 ON e.emp_no = s.emp_no
 ORDER BY e.emp_no;
 
--- USING SUBQUERY
+	-- USING SUBQUERY
 SELECT
 	emp_no,
 	last_name,
@@ -77,7 +77,7 @@ ORDER BY hire_date;
 
 
 -- QUERY for a list of the manager of each department along with their department number, department name, employee number, last name, and first name
--- USING JOIN
+	-- USING JOIN
 SELECT dm.dept_no,
 	d.dept_name,
 	e.emp_no,
@@ -87,7 +87,7 @@ FROM dept_manager dm
 JOIN dept d ON dm.dept_no = d.dept_no
 JOIN employees e ON e.emp_no = dm.emp_no;
 
--- USING SUBQUERY
+	-- USING SUBQUERY
 SELECT dm.dept_no,
 	(
 		SELECT d.dept_name
@@ -109,7 +109,7 @@ FROM dept_manager dm
 
 
 -- QUERY for a list of the department number for each employee along with that employee’s employee number, last name, first name, and department name
--- USING JOIN
+	-- USING JOIN
 SELECT de.dept_no,
 	de.emp_no,
 	e.last_name,
@@ -120,7 +120,7 @@ JOIN dept_emp de ON de.emp_no = e.emp_no
 JOIN dept d ON de.dept_no = d.dept_no
 ORDER BY de.dept_no, e.last_name;
 
--- USING SUBQUERY
+	-- USING SUBQUERY
 SELECT de.dept_no,
 		de.emp_no,
 		(
@@ -150,7 +150,7 @@ ORDER BY last_name;
 
 
 -- QUERY for a list of each employee in the Sales department, including their employee number, last name, and first name
--- USING JOIN
+	-- USING JOIN
 SELECT
 	e.emp_no,
 	e.last_name,
@@ -162,7 +162,7 @@ JOIN dept d on de.dept_no = d.dept_no
 WHERE d.dept_name = 'Sales'
 ORDER BY e.emp_no;
 
--- USING SUBQUERY WITH JOIN
+	-- USING SUBQUERY WITH JOIN
 SELECT 
 	de.emp_no, 
 	(
