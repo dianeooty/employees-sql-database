@@ -37,7 +37,7 @@ Csv files used in this research is located in the 'data' folder.  Sql queries an
 ## Usage
 The sql codes below will display the tables with the required information for the analysis.
 
-`
+```
 -- QUERY for a list of the employee number, last name, first name, sex, and salary of each employee
 -- USING JOIN
 SELECT
@@ -198,7 +198,7 @@ SELECT last_name, COUNT(last_name) AS frequency
 FROM employees
 GROUP BY last_name
 ORDER BY frequency
-`
+```
 
 
 ## Project Status
