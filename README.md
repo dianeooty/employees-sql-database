@@ -1,5 +1,5 @@
-# sql-challenge
-This is my Module 9 Challenge for my Data Analytics and Visualization Boot Camp.  My task is to complete a research on a company's employment history from the 1980s to 1990s.
+# employees-database
+My task is to complete a research on Pewlett Hackards's employment history from the 1980s to 1990s.
 
 
 ## Table of Contents
@@ -14,7 +14,7 @@ This is my Module 9 Challenge for my Data Analytics and Visualization Boot Camp.
 
 
 ## General Information
-Complete an analysis using a fictional company's employment data found in 6 csv files. I pulled the employees' information, department managers' information, department number for each employee, list of all employees whose first name is Hercules and whose last name starts with the letter B, a list of all the Sales employees, a list of all Sales and Development  employees and the frequency counts for employee last names.  Using Postgresql, I defined the tables with data types, references and constraints, and imported the data from the csv files. I also created an Entity Relationship Diagram (ERD).
+Using 6 different datasets, I pulled the employees' information, department managers' information, department number for each employee, list of all employees whose first name is Hercules and whose last name starts with the letter B, a list of all the Sales employees, a list of all Sales and Development  employees and the frequency counts for employee last names.  Using Postgresql, I defined the tables with data types, references and constraints, and imported the data from the csv files. I also created an Entity Relationship Diagram (ERD).
 
 ## Technologies Used
 - Postgresql
