@@ -1,4 +1,4 @@
-# employees-database
+# employees-sql-database
 My task is to complete a research on Pewlett Hackards's employment history from the 1980s to 1990s.
 
 
