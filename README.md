@@ -203,7 +203,7 @@ Project is complete and no longer being worked on.
 
 
 ## Acknowledgements
-- Many thanks to the instructional team and my tutor, David Chao.
+- Many thanks to the instructional team and David Chao.
 
 ## Contact
 Created by Diane Guzman
