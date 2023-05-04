@@ -24,6 +24,12 @@ Using 6 different datasets, I pulled the employees' information, department mana
 
 ## Screenshots
 ![1](https://user-images.githubusercontent.com/117790100/218594313-09e72819-20b9-49d7-82f0-05fd3d83d053.png)
+![1](https://user-images.githubusercontent.com/117790100/236311413-84c9f3b2-9c35-4dc8-b4e9-d9f2a10e2a1c.png)
+![2](https://user-images.githubusercontent.com/117790100/236311416-ac5d2362-500a-4169-9981-26e0046293fe.png)
+![3](https://user-images.githubusercontent.com/117790100/236311420-db275579-c80e-4e42-ae8b-f5bb9b0217e2.png)
+![4](https://user-images.githubusercontent.com/117790100/236311421-8563bb9e-b07e-4627-92e9-3bdf034089fa.png)
+![5](https://user-images.githubusercontent.com/117790100/236311422-07b68966-e90a-4d46-ac42-9b8bc91d9c1c.png)
+![6](https://user-images.githubusercontent.com/117790100/236311426-b8c56424-ad76-4625-a43e-1ceef9ce14a4.png)
 
 
 ## Setup
